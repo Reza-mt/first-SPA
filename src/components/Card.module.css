@@ -1,0 +1,52 @@
+.container img {
+ width: 300px;   
+ height: 200px;
+}
+
+.container{
+    width: 300px;
+    margin: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(189,189,189);
+}
+
+
+.container h3{
+    color: #696969;
+    margin: 30px 20px 20px;
+}
+
+.container p{
+    margin: 0px 20px 20px;
+    background-color: rgb(77, 185, 5);
+    width: fit-content;
+    padding:10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-top: 1px silver solid ;
+}
+.counter img{
+    width: 25px;
+    margin: 8px;
+    height: fit-content;
+}
+
+.counter span {
+    background-color: rgb(70, 70, 212);
+    font-weight: bold;
+    padding: 3px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.deactivate{
+    opacity: 0.3;
+}

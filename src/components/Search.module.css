@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 150px;
+    background: rgb(36,210,242);
+    background: radial-gradient(circle, rgba(36,210,242,1) 58%, rgba(229,236,238,0.9808298319327731) 98%);
+}
+
+.container p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.container input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
