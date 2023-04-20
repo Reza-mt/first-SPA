@@ -14,3 +14,16 @@
     padding: 5px;
     border-radius: 10px silver solid;
 }
+
+@media (max-width: 640px) { 
+    .container{
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (min-width: 320px) { 
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+ }

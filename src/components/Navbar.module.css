@@ -29,3 +29,16 @@
 .list li a:hover{
     color: #b4b4b4;
 }
+
+@media (max-width: 640px) { 
+    .header{
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (min-width: 320px) { 
+    .header{
+        display:flex;
+        flex-wrap: wrap;
+    }
+ }

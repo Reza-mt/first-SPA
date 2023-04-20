@@ -31,3 +31,16 @@
     color: azure;
     margin-left: 10px;
 }
+
+@media (max-width: 640px) { 
+    .container{
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (min-width: 320px) { 
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+ }
